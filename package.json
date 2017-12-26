@@ -1,0 +1,26 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "twitter bot built in Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.83.0",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimidoan/twitterBot.git"
+  },
+  "author": "mimi doan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mimidoan/twitterBot/issues"
+  },
+  "homepage": "https://github.com/mimidoan/twitterBot#readme"
+}
