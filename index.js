@@ -15,11 +15,14 @@ const quoteURL = 'https://api.forismatic.com/api/1.0/?method=getQuote&key=123456
 
 const getQuote = new Promise(function(fulfill, reject){
   request(quoteURL, function(err, res, body) {
-    if(err) {
-      reject(err);
-    } else {
-      fulfill(body);
-    }
+    // if(err) {
+    //   reject(err);
+    // } else {
+    //   fulfill(body);
+    // }
+
+    err ? reject(err) : fulfill(body);
+
   });
 });
 
